@@ -106,7 +106,7 @@ tree.heading("preco", text="PREÇO")
 tree.heading("data-entrada", text="ENTRADA")
 
 for i in range(len(pedido_list)):
-    tree.insert("", tk.END, text=f"{id_list[i]}", values=(f"{pedido_list[i]}, {quantidade_list[i]}, {preco_list[i]: .2f}, {data_list[i]}"))
+    tree.insert("", tk.END, text=f"{id_list[i]}", values=(f"{pedido_list[i]}, {preco_list[i]: .2f}, {quantidade_list[i]}, {data_list[i]}"))
 
 tree.pack(fill='x')
 
