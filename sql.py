@@ -15,7 +15,7 @@ sql = (
         'id INTEGER PRIMARY KEY AUTOINCREMENT, '
         'produto TEXT, '
         'quantidade INTEGER, '
-        'preco REAL,'
+        'preco NUMERIC, '
         'data TEXT'
     ')'
 )
